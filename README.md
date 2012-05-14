@@ -10,13 +10,14 @@ I may introduce link posting functionality if it ends up being nontrival to impl
 ## Implementation Notes ##
 
 **User Data Model:**
-id:		integer
-name:	string
-email:	string
+ * id:		integer
+ * name:	string
+ * email:	string
 
 **Post Data Model:**
-is\_Base:	boolean
-id:			integer
-parent\_id:	integer
-title:		string
-content:	string
+ * is\_Base:	boolean
+ * id:			integer
+ * parent\_id:	integer
+ * user\_id:	integer
+ * title:		string
+ * content:		string
