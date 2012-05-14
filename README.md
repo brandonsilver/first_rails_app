@@ -23,3 +23,8 @@ I may introduce link posting functionality if it ends up being nontrival to impl
  * user\_id:	integer
  * title:		string
  * content:		string
+
+## To-do: ##
+ * **Data input validation:** Disallow blank names and invalid email addresses, overall input sanatation
+ * **User Authentication:** There isn't a way to sign in or out, anyone can do anything
+ * **Layout:** Just the default layout
