@@ -25,6 +25,6 @@ I may introduce link posting functionality if it ends up being nontrival to impl
  * content:		string
 
 ## To-do: ##
- * **Data input validation:** Disallow blank names and invalid email addresses, overall input sanatation
+ * **Data input validation:** Disallow blank names and invalid email addresses, overall input sanitation
  * **User Authentication:** There isn't a way to sign in or out, anyone can do anything
  * **Layout:** Just the default layout
