@@ -16,10 +16,11 @@ I may introduce link posting functionality if it ends up being nontrival to impl
  * email:	string
 
 **Post Data Model:**
- * is\_Base:	boolean
  * id:			integer
 	(primary key in database)
  * parent\_id:	integer
+ * level:		integer
+    (1 = base post, 2 = top level comment)
  * user\_id:	integer 
  * content:		string
 
