@@ -20,8 +20,7 @@ I may introduce link posting functionality if it ends up being nontrival to impl
  * id:			integer
 	(primary key in database)
  * parent\_id:	integer
- * user\_id:	integer
- * title:		string
+ * user\_id:	integer 
  * content:		string
 
 ## To-do: ##
